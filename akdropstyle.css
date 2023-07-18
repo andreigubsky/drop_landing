@@ -1,0 +1,45 @@
+body{
+	1background-color: #efefef;
+	width: 500px;
+}
+.int {
+	display: flex;
+  	justify-content: space-evenly;
+  	width: 500px;
+ }
+header {
+	width: 440px;
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #efefef;
+	border: 1px solid #aaa;
+	padding: 3px 30px 7px 30px;
+	
+}
+main {
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #aaa;
+	padding: 5px;
+	width: 490px;
+}
+
+footer {
+	width: 360px;
+	height: 20px;
+	display: inline-flex;
+	justify-content: space-evenly;
+	border: 1px solid #aaa;
+	padding: 5px 70px 5px 70px;
+}
+input, button{
+	padding: 2px;
+	margin:  1px;
+}
+a{
+	text-decoration: none;
+	line-height: 1.5;
+	color: var(--fgColor-accent, var(--color-accent-fg));
+	cursor: pointer;
+}
